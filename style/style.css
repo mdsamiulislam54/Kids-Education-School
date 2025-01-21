@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+/* common css style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+
+a,li{
+    list-style: none;
+    text-decoration: none;
+}
+
+:root{
+    --orange: #FEA301;
+    --sky-blue: #01ACFD;
+    --blue:#5D58EF;
+    --voilet: #8700FF;
+    --orcn:#05D4DF;
+}
+.container{
+    max-width: 1160px;
+    margin: 0 auto;
+}
+.d-flex{
+    display: flex;
+    gap: 10px;
+}
+.primary-button{
+    font-size: 1.4rem;
+    font-weight: 700;
+    list-style: 1.5rem;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: black;
+    color: #fff;
+    border-radius: 10px;
+}
+
+/* common css style */
+
+/* Navbar section style start... */
+.navbar_item{
+    padding: 20px 0px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_logo{
+  
+    align-items: center;
+}
+.nav_logo > p{
+    font-size: 2rem;
+    line-height: 1.5rem;
+    font-weight: 700;
+}
+.navbar_item >ul{
+    display: flex;
+    align-items: center;
+}
+
+.navbar_item > ul> li{
+    margin: 0 0px 0px 30px;
+    
+}
+.navbar_item > ul> li>a{
+    font-size: 1.4rem;
+    font-weight: 700;
+    list-style: 1.5rem;
+}
+.nav_btn >a{
+    font-size: 1.4rem;
+    font-weight: 700;
+    list-style: 1.5rem;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: var(--orange);
+    color: #fff;
+    border-radius: 10px;
+    transition: all linear 0.3s ;
+}
+.nav_btn >a:hover{
+    background-color: var(--blue);
+
+    
+}
+.navbar_item > ul>:nth-child(1)>a{
+    color: var(--orange);
+}
+.navbar_item > ul>:nth-child(2)>a{
+    color: var(--sky-blue);
+}
+.navbar_item > ul>:nth-child(3)>a{
+    color: var(--orcn);
+}
+.navbar_item > ul>:nth-child(4)>a{
+    color: var(--blue);
+}
+
+
+/* Navbar section style end... */
+/* ...................... */
+/* banner_part section style start... */
+
+.banner_part{
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    
+}
+.banner_text >h1{
+    font-size: 3.5rem;
+    line-height: 4rem;
+    font-weight: 500;
+    margin: 20px 0px ;
+    
+}
+.Empowering{
+    color: var(--orange);
+}
+.vision{
+    color: var(--sky-blue);
+}
+.banner_text > p{
+    font-size: 1rem;
+    line-height: 1.8rem;
+    font-weight: 400;
+    margin: 10px 0px 20px 0px;
+}
+.banner_imgaes img{
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+/* banner_part section style end... */
+/* Navbar section style start... */
+/* Navbar section style start... */
+/* Navbar section style start... */
+/* Navbar section style start... */
+/* Navbar section style start... */
