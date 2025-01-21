@@ -39,6 +39,12 @@ a,li{
     background-color: black;
     color: #fff;
     border-radius: 10px;
+    transition: all linear 0.3s;
+    border: none;
+    cursor: pointer;
+}
+.primary-button:hover{
+    background-color: var(--orange);
 }
 
 /* common css style */
@@ -164,8 +170,83 @@ a,li{
 
 
 /* banner_part section style end... */
-/* Navbar section style start... */
-/* Navbar section style start... */
+
+/* crriculum section style start... */
+
+#crriculum{
+    background-image: url(../assets/bg.png);
+    margin: 50px 0px;
+    
+}
+.crriculum_heading > h2{
+    text-align: center;
+    margin-bottom: 5rem ;
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+.crriculam_card_section{
+    gap: 20px;
+}
+.crriculam_card{
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-direction: column;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 2px -4px 44px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.crriculam_card >h4{
+   font-size: 1.5rem;
+   line-height: 2rem;
+   font-weight: 700;
+   
+}
+.crriculam_card >p{
+   font-size: 1rem;
+   
+   font-weight: 400;
+   
+}
+.crriculam_card >a{
+    font-size: 1rem;
+   font-weight: 400;
+   padding: 0px 0px 10px 0px;
+   
+}
+.crriculam_card_section .crriculam_card:nth-child(1){
+   background: linear-gradient(#DEF5FF, #fff);
+}
+
+.crriculam_card_section .crriculam_card:nth-child(2){
+   background: linear-gradient(#FFF4DC, #fff);
+}
+.crriculam_card_section .crriculam_card:nth-child(3){
+   background: linear-gradient(#F2E8FF, #fff);
+}
+.crriculam_card_section .crriculam_card:nth-child(1)>a{
+    color: var(--sky-blue);
+ }
+ .crriculam_card_section .crriculam_card:nth-child(2)>a{
+    color: var(--orange);
+ }
+ .crriculam_card_section .crriculam_card:nth-child(3)>a{
+    color: var(--voilet);
+ }
+
+
+
+ .slider_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 50px 0px;
+ }
+/* crriculum section style end... */
+
+
 /* Navbar section style start... */
 /* Navbar section style start... */
 /* Navbar section style start... */
