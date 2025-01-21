@@ -291,4 +291,14 @@ a,li{
         font-size: 1rem;
         line-height: 1rem;
     }
+
+    #crriculum > .container{
+        padding: 0px 10px;
+    }
+    .crriculam_card_section{
+        flex-direction: column;
+    }
+    .slider_button{
+        display: none;
+    }
 }
