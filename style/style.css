@@ -31,7 +31,7 @@ a,li{
     gap: 10px;
 }
 .primary-button{
-    font-size: 1.4rem;
+    font-size: 1rem;
     font-weight: 700;
     list-style: 1.5rem;
     text-align: center;
@@ -139,7 +139,27 @@ a,li{
     width: 100%;
     height: auto;
 }
-
+#marquee_text{
+    animation: color-change 2s infinite;
+    font-size: 2rem;
+}
+@keyframes color-change{
+    0% {
+        color: var(--blue);
+    }
+    25% {
+        color: var(--orange);
+    }
+    50% {
+        color: var(--orcn);
+    }
+    75% {
+        color: var(--sky-blue);
+    }
+    100% {
+        color: var(--voilet);
+    }
+}
 
 
 
@@ -182,8 +202,8 @@ a,li{
     }
     .banner_text >h1{
         text-align: center;
-        font-size: 2.5rem;
-        line-height: 3.5rem;
+        font-size: 2rem;
+        line-height: 3rem;
     }
     .banner_text >p{
         text-align: center;
