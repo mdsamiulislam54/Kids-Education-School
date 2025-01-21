@@ -340,7 +340,7 @@ a,li{
     flex-direction: column;
     margin: 20px  0px;
 }
-#date_id{
+#date_id_2{
     background-color: var(--sky-blue);
 }
 
@@ -477,6 +477,23 @@ a,li{
         top: 124px;
         left: 35px;
         font-size: 0.7rem;
+    }
+    #date_id_3{
+        background-color: var(--blue);
+    }
+    #date_id_4{
+        background-color: var(--blue);
+    }
+    #date_id_5{
+        background-color: var(--blue);
+    }
+
+    .footer-content{
+        flex-direction: column;
+
+    }
+    #footer> .container{
+        margin: 0px 30px;
     }
    
 }
