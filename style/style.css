@@ -73,6 +73,9 @@ a,li{
     font-weight: 700;
     list-style: 1.5rem;
 }
+.menu_icon{
+    display: none;
+}
 .nav_btn >a{
     font-size: 1.4rem;
     font-weight: 700;
@@ -146,3 +149,45 @@ a,li{
 /* Navbar section style start... */
 /* Navbar section style start... */
 /* Navbar section style start... */
+
+/* responsive style start... */
+
+@media screen and (max-width: 576px) {
+    .navbar_item > ul {
+        display: none;
+    }
+    .navbar{
+        padding: 0px 10px;
+    }
+    .nav_logo > p{
+        display: none;
+    }
+    .navbar_btn{
+        display: none;
+    }
+    .menu_icon{
+        display: block;
+    }
+    .banner_part{
+        flex-direction: column-reverse;
+        justify-content: center;
+        padding: 0px 10px;
+        
+    }
+    .banner_text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .banner_text >h1{
+        text-align: center;
+        font-size: 2.5rem;
+        line-height: 3.5rem;
+    }
+    .banner_text >p{
+        text-align: center;
+        font-size: 1rem;
+        line-height: 1rem;
+    }
+}
